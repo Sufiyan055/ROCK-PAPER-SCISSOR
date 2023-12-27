@@ -22,6 +22,7 @@ h1 {
   align-items: center;
   margin-top: 5rem;
   gap: 35px;
+  flex-wrap: wrap;
 }
 
 .choice {
@@ -51,6 +52,7 @@ h1 {
   font-size: 2rem;
   margin-top: 3rem;
   gap: 5rem;
+  flex-wrap: wrap;
 }
 
 #user-score,
@@ -70,4 +72,13 @@ h1 {
   padding: 1rem;
   border-radius: 1rem;
   user-select: none;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 550px) {
+  #msg {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
